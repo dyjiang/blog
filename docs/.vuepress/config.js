@@ -67,15 +67,10 @@ module.exports = {
   },
   plugins: [
     [
-      '@vuepress/last-updated',
+      '@vuepress/last-updated',  //日期控件
       {
-        transformer: (timestamp, lang) => {
-          // 不要忘了安装 moment
-          const moment = require('moment')
-          // console.log(moment,'momentmomentmoment');
-          moment.locale('zh-cn')
-          // return moment(timestamp).fromNow('hour')
-          return moment(timestamp,lang).format('llll');
+        dateOptions:{
+          hour12: false
         }
       }
     ]
