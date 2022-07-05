@@ -67,7 +67,7 @@ module.exports = {
   },
   plugins: [
     [
-      '@vuepress/last-updated',
+      '@vuepress/last-updated',  //日期控件
       {
         dateOptions:{
           hour12: false
