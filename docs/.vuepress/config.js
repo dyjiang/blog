@@ -1,36 +1,34 @@
 module.exports = {
   title: "牧之笔记",
   description: "记录工作，记录生活....",
-  theme: "reco",
+  ga: "UA-121061441-1",
+  markdown: {
+    lineNumbers: true,
+  },
+  head: [["link", { rel: "icon", href: "/logo.png" }]],
+  // theme: "reco",
   themeConfig: {
     // 博客配置 reco主题
-    // blogConfig: {
-    //   category: {
-    //     location: 2, // 在导航栏菜单中所占的位置，默认2
-    //     text: "Category", // 默认文案 “分类”
-    //   },
-    //   tag: {
-    //     location: 3, // 在导航栏菜单中所占的位置，默认3
-    //     text: "Tag", // 默认文案 “标签”
-    //   },
-    //   socialLinks: [
-    //     // 信息栏展示社交信息
-    //     { icon: "reco-github", link: "https://github.com/recoluan" },
-    //     { icon: "reco-npm", link: "https://www.npmjs.com/~reco_luan" },
-    //   ],
-    // },
+    base:'dyjiang.github.io',
+    subSidebar: 'auto',
+    locales: {
+      '/': {
+        lang: 'zh-CN'
+      }
+    },
     author: '牧之', //全局作者姓名
-    // lastUpdated: '上次更新', // string | boolean
+    lastUpdated: '上次更新', // string | boolean
     lastUpdated: true,  // 2.设置true，开启最后更新时间
+    // noFoundPageByTencent: false,  // reco
+    //  startYear: '2017',   // 项目开始时间，只填写年份
     nav: [
       { text: "首页", link: "/" },
       { text: "笔记", link: "/blog/" },
-      { text: "代码块", link: "/code/" },
-      { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
+      { text: "代码块", link: "/code/",icon: 'reco-date' },
       {
         text: "关于我",
         items: [
-          { text: "Github", link: "https://github.com/dyjiang/blog" },
+          { text: "Github", link: "https://github.com/dyjiang/blog",icon:"reco-github" },
           { text: "我", link: "/about/" },
         ],
       },
@@ -40,7 +38,7 @@ module.exports = {
         {
           title: "js知识点",
           collapsable: false,
-          children: ["js-base", "react"],
+          children: ["js-base", "react","vue","php"],
         },
       ],
       "/code/": [
@@ -53,15 +51,9 @@ module.exports = {
       "/about/": [
         {
           title: "关于我",
+        //  title: "$page",
           collapsable: false,
           children: ["me"],
-        },
-      ],
-      "/timeline/": [
-        {
-          title: "js知识点",
-          collapsable: false,
-          children: ["time"],
         },
       ],
     },
