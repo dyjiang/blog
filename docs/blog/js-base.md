@@ -1,16 +1,7 @@
 ### js 基础
 
----
 
 
+#### 基本数据类型
 
-
-```javascript
----
-title: 条件类型
-author: 冴羽
-date: '2021-12-12'
----
-```
-
-<LastUpdated />
+#### jq
