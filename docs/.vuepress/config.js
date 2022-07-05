@@ -1,3 +1,5 @@
+// const moment = require('moment');
+
 module.exports = {
   title: "牧之笔记",
   description: "记录工作，记录生活....",
@@ -18,7 +20,7 @@ module.exports = {
     },
     author: '牧之', //全局作者姓名
     lastUpdated: '上次更新', // string | boolean
-    lastUpdated: true,  // 2.设置true，开启最后更新时间
+    // lastUpdated: true,  // 2.设置true，开启最后更新时间
     // noFoundPageByTencent: false,  // reco
     //  startYear: '2017',   // 项目开始时间，只填写年份
     nav: [
@@ -28,7 +30,7 @@ module.exports = {
       {
         text: "关于我",
         items: [
-          { text: "Github", link: "https://github.com/dyjiang/blog",icon:"reco-github" },
+          { text: "Github", link: "https://github.com/dyjiang/blog"},
           { text: "我", link: "/about/" },
         ],
       },
@@ -40,12 +42,17 @@ module.exports = {
           collapsable: false,
           children: ["js-base", "react","vue","php"],
         },
+        {
+          title: "其他",
+          collapsable: false,
+          children: ["typora"],
+        },
       ],
       "/code/": [
         {
           title: "代码块",
           collapsable: false,
-          children: ["bug1"],
+          children: ["code0",'code1',"code2",'code3'],
         },
       ],
       "/about/": [
@@ -58,4 +65,19 @@ module.exports = {
       ],
     },
   },
+  plugins: [
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp, lang) => {
+          // 不要忘了安装 moment
+          const moment = require('moment')
+          // console.log(moment,'momentmomentmoment');
+          moment.locale('zh-cn')
+          // return moment(timestamp).fromNow('hour')
+          return moment(timestamp,lang).format('llll');
+        }
+      }
+    ]
+  ]
 };
