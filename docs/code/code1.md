@@ -13,9 +13,11 @@
 
 
 ```javascript
-如果是动态图片，那么 设计师给的josn 生成的 svg, 格式必须是 ： <g><image></image></g>,
+//如果是动态图片，那么 设计师给的josn 生成的 svg, 格式必须是 ：
+<g><image></image></g>,
     
-如果是文字，那么设计师要给的 json 生成的 svg,  格式必须 <g><text><tspan></tspan></text></g>
+//如果是文字，那么设计师要给的 json 生成的 svg,  格式必须
+<g><text><tspan></tspan></text></g>
     
 ```
 
