@@ -1,5 +1,5 @@
-# bug
+# 代码块
 
-记录前端开发工作中积累的bug。
+小小代码块。
 
 ![](https://cdn.jsdelivr.net/gh/mengsixing/picture/img/images.jpeg)
