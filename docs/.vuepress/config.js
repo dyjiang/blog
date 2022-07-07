@@ -38,12 +38,22 @@ module.exports = {
     sidebar: {
       "/blog/": [
         {
-          title: "js知识点",
+          title: "前端知识点",
           collapsable: false,
-          children: ["js-base", "react","vue","php"],
+          children: ["js-base", "react","vue"],
         },
         {
-          title: "其他",
+          title: "后台知识点",
+          collapsable: false,
+          children: ["node","php"],
+        },
+        {
+          title: "ui,产品知识点",
+          collapsable: false,
+          children: ["ui","pm"],
+        },
+        {
+          title: "私享杂货铺",
           collapsable: false,
           children: ["typora"],
         },
@@ -52,7 +62,7 @@ module.exports = {
         {
           title: "代码块",
           collapsable: false,
-          children: ["code0",'code1',"code2",'code3'],
+          children: ["code0",'code1',"code2",'code3','code4'],
         },
       ],
       "/about/": [
