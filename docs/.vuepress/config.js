@@ -55,7 +55,7 @@ module.exports = {
         {
           title: "私享杂货铺",
           collapsable: false,
-          children: ["typora"],
+          children: ["typora","git"],
         },
       ],
       "/code/": [
