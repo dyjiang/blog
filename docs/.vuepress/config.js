@@ -48,14 +48,9 @@ module.exports = {
           children: ["node","php"],
         },
         {
-          title: "ui,产品知识点",
+          title: "其他",
           collapsable: false,
-          children: ["ui","pm"],
-        },
-        {
-          title: "私享杂货铺",
-          collapsable: false,
-          children: ["typora","git"],
+          children: ["typora","git","ui","pm",'3d'],
         },
       ],
       "/code/": [
@@ -83,6 +78,7 @@ module.exports = {
           hour12: false
         }
       }
-    ]
+    ],
+    ['@vuepress/back-to-top']
   ]
 };
