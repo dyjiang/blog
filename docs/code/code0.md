@@ -1,6 +1,4 @@
-### git提交100054
-
-
+### git: OpenSSL SSL_read: Connection was reset, errno 10054
 
 
 
