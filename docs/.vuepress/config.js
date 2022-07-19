@@ -57,7 +57,7 @@ module.exports = {
         {
           title: "代码块",
           collapsable: false,
-          children: ["code0",'code1',"code2",'code3','code4','20220712','220719_1'],
+          children: ["code0",'code1',"code2",'code3','code4','20220712','220719'],
         },
       ],
       "/about/": [
