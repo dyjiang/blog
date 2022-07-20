@@ -65,7 +65,7 @@ module.exports = {
           title: "关于我",
         //  title: "$page",
           collapsable: false,
-          children: ["me","mail"],
+          children: ["me","mail",'220720'],
         },
       ],
     },
