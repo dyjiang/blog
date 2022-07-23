@@ -50,14 +50,14 @@ module.exports = {
         {
           title: "其他",
           collapsable: false,
-          children: ["typora","git","ui","pm",'3d','220723'],
+          children: ["typora","git","ui","pm",'3d'],
         },
       ],
       "/code/": [
         {
           title: "代码块",
           collapsable: false,
-          children: ["code0",'code1',"code2",'code3','code4','20220712','220719','220719_1',],
+          children: ["code0",'code1',"code2",'code3','code4','20220712','220719','220719_1','220723'],
         },
       ],
       "/about/": [
