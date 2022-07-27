@@ -27,13 +27,14 @@ module.exports = {
       { text: "首页", link: "/" },
       { text: "笔记", link: "/blog/" },
       { text: "代码块", link: "/code/",icon: 'reco-date' },
-      {
-        text: "关于我",
-        items: [
-          { text: "Github", link: "https://github.com/dyjiang/blog"},
-          { text: "我", link: "/about/" },
-        ],
-      },
+      { text: "关于我", link: "/about/"},
+      // {
+      //   text: "关于我",
+      //   items: [
+      //     // { text: "Github", link: "https://github.com/dyjiang/blog"},
+      //     { text: "我", link: "/about/" },
+      //   ],
+      // },
     ],
     sidebar: {
       "/blog/": [
