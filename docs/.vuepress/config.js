@@ -2,7 +2,7 @@
 
 module.exports = {
   title: "牧之笔记",
-  description: "记录工作，记录生活....",
+  description: "满招损，谦受益....",
   ga: "UA-121061441-1",
   markdown: {
     lineNumbers: true,
