@@ -7,8 +7,8 @@
 联系我：
 
 - Twitter  [@jdy888](https://twitter.com/jdy888) 
-- 微信： jdy888  
-- tg: 未设置
+- 微信： rich_jdy  
+- tg: jdy666
 - 邮箱：[9661@163.com]()   
 - qq：795273
 - github： [dyjiang](https://github.com/dyjiang/blog.git)
