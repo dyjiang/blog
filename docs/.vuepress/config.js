@@ -51,7 +51,7 @@ module.exports = {
         {
           title: "其他",
           collapsable: false,
-          children: ["study", "typora", "git", "ui", "pm", "3d", "220726"],
+          children: ["study", "typora", "git", "ui", "pm", "3d", "220726","tizi"],
         },
       ],
       "/code/": [
