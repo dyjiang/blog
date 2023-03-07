@@ -6,8 +6,8 @@
 
 联系我：
 
-- Twitter  [@jdy888](https://twitter.com/jdy888) 
-- 微信： rich_jdy  
+- Twitter  xxx
+- 微信： xxx  
 - tg: jdy666
 - 邮箱：[9661@163.com]()   
 - qq：795273
