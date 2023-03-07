@@ -10,7 +10,7 @@
 - 微信： xxx  
 - tg: jdy666
 - 邮箱：[9661@163.com]()   
-- qq：795273
+- qq：xxx
 - github： [dyjiang](https://github.com/dyjiang/blog.git)
 
 
