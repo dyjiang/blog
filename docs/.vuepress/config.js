@@ -22,11 +22,11 @@ module.exports = {
     lastUpdated: "上次更新", // string | boolean
     // lastUpdated: true,  // 2.设置true，开启最后更新时间
     // noFoundPageByTencent: false,  // reco
-    //  startYear: '2017',   // 项目开始时间，只填写年份
+     startYear: '2017',   // 项目开始时间，只填写年份
     nav: [
       { text: "首页", link: "/" },
-      { text: "代码块", link: "/code/", icon: "reco-date" },
       { text: "笔记", link: "/blog/" },
+      { text: "代码块", link: "/code/", icon: "reco-date" },
       { text: "关于我", link: "/about/" },
       // {
       //   text: "关于我",
@@ -37,6 +37,7 @@ module.exports = {
       // },
     ],
     sidebar: {
+     
       "/blog/": [
         {
           title: "前端知识点",
